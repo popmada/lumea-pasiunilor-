@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	
+	<meta charset="UTF-8">
+	<title>q&a</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" type="image/x-icon" href="favicon.ico">
+	<link rel="stylesheet" href="q&a.css"> 
+	<script src="https://kit.fontawesome.com/e8fcdaff75.js" crossorigin="anonymous">
+	</script>
+</head
+<body>
+  <section class="py-60" style="background-color:#EFDFBB;">
+  <div class="container text-control-1">
+    <h2>Întrebări frecvente...</h2>
+    <div class="faqs-section">
+      <div class="faq accordion">
+        <div class="question-wrapper">
+          <div class="d-flex align-items-center"><span class="q-mark d-block">Q.</span>
+            <div class="question" title="">
+               Cat costa sa particip la clase?</div>
+          </div>
+	<i class="material-icons drop"><i class="fa-solid fa-chevron-down"></i></i>
+        </div>
+        <div class="answer-wrapper" style="display: none;">
+          <p class="answer">Daca ai sub 26 de ani si te afli in cadrul unei scoli/facultati, cursurile sunt gratuite, deoarece financiar consideram ca nu te incadrezi, in schimb daca depasesti varsta mentionata, cursurile incep de la 70 de lei/h. </p>
+        </div>
+      </div>
+      <div class="faq accordion">
+        <div class="question-wrapper">
+          <div class="d-flex align-items-center"><span class="q-mark d-block">Q.</span>
+            <div class="question" title="">
+               Cate persoane se afla intr-o clasa?</div>
+          </div>
+	<i class="material-icons drop"><i class="fa-solid fa-chevron-down"></i></i>
+        </div>
+        <div class="answer-wrapper">
+          <p class="answer">Depinde, la cluburile sportive se tine cont si de compozitia unei echipe, la restul claselor, se accepta maxim 15 elevi.</p>
+        </div>
+      </div>
+      <div class="faq accordion">
+        <div class="question-wrapper">
+          <div class="d-flex align-items-center"><span class="q-mark d-block">Q.</span>
+            <div class="question" title="">Conteaza daca nu am experienta in domeniu?</div>
+          </div>
+	<i class="material-icons drop"><i class="fa-solid fa-chevron-down"></i></i>
+        </div>
+        <div class="answer-wrapper">
+          <p class="answer">Categoric NU. Coordonatorii nostri ofera atentie fiecarui candidat in parte, chiar daca nu toată lumea are sau nu un anumit nivel.</p>
+        </div>
+      </div>
+      <div class="faq accordion">
+        <div class="question-wrapper">
+          <div class="d-flex align-items-center"><span class="q-mark d-block">Q.</span>
+            <div class="question" title="">
+               Cat dureaza un curs?</div>
+          </div>
+	<i class="material-icons drop"><i class="fa-solid fa-chevron-down"></i></i>
+        </div>
+        <div class="answer-wrapper">
+          <p class="answer">Depinde de sectie, dar in general, nu mai mult de o ora jumatate, exceptie fac clasele de desen, pictura sau sculptura unde acolo poate devia programul cu o jumătate de ora..</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+      <script id="rendered-js">
+$(".question-wrapper").click(function () {
+  var container = $(this).parents(".accordion");
+  var answer = container.find(".answer-wrapper");
+  var trigger = container.find(".material-icons.drop");
+  var state = container.find(".question-wrapper");
+
+  answer.animate({ height: "toggle" }, 100);
+
+  if (trigger.hasClass("icon-expend")) {
+    trigger.removeClass("icon-expend");
+    // state.removeClass("active");
+  } else
+  {
+    trigger.addClass("icon-expend");
+    // state.addClass("active");
+  }
+
+  if (container.hasClass("expanded")) {
+    container.removeClass("expanded");
+  } else
+  {
+    container.addClass("expanded");
+  }
+});
+//# sourceURL=pen.js
+    </script>
+<footer>
+			<span style='color:white'>&copy; <strong> director Madalina-Elena Pop <br> Scoala de Multitasking "Super-erou"</strong></span>
+		</footer> 
+</body>
+</html>

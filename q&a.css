@@ -1,0 +1,141 @@
+/* Style for padding */
+.py-60 {
+    padding: 60px 0;
+}
+@media only screen and (max-width: 768px) {
+    .py-60 {
+        padding: 52px 0;
+    }
+}
+
+/* Section styling */
+section {
+    background: #F3F3F3;
+}
+
+/* H2 styling */
+h2 {
+    font-family: Roboto-Light;
+    font-size: 32px;
+    color: #92629E;
+    line-height: 1.25;
+    text-transform: uppercase;
+}
+@media only screen and (max-width: 768px) {
+    h2 {
+        font-size: 24px;
+    }
+}
+
+/* Text control styling */
+.text-control-1 h2 {
+    margin-bottom: 20px;
+}
+@media only screen and (max-width: 768px) {
+    .text-control-1 h2 {
+        margin-bottom: 16px;
+    }
+}
+/* Q-mark styling */
+.q-mark {
+    font-family: Roboto-Bold;
+    color: #54798A;
+    padding: 18px 0 18px 18px;
+    font-size: 35px;
+}
+
+/* Question styling */
+.question {
+    font-family: Roboto;
+    font-size: 30px;
+    color: #5C5C5C;
+    line-height: 1.5;
+    padding: 20px;
+    margin-bottom: 0;
+}
+
+/* Material icons drop styling */
+.material-icons.drop {
+    padding: 20px;
+    font-size: 2rem;
+    color: #67A2BD ;
+    transition: transform 0.5s ease-in-out;
+}
+
+/* Answer styling */
+.answer {
+    font-size: 20px;
+    color: black;
+    padding: 16px;
+    padding-left: 52px;
+    padding-bottom: 32px;
+    background-color: #EEE5D1;
+    overflow: hidden;
+}
+
+/* Accordion styling */
+.accordion {
+    background-color: #D7CFBA;
+    color: #EEE5D1;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom: 20px;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 2px 1px -1px rgba(0, 0, 0, 0.12), 0 1px 3px 0 rgba(0, 0, 0, 0.20);
+    border-radius: 4px;
+}
+@media only screen and (max-width: 768px) {
+    .accordion {
+        margin-bottom: 16px;
+    }
+}
+
+/* Question wrapper styling */
+.question-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background-color 0.25s ease-in-out;
+}
+
+/* Answer wrapper styling */
+.answer-wrapper {
+    display: none;
+}
+
+/* Icon expand styling */
+.icon-expend {
+    transform: rotateX(180deg);
+    transition: transform 0.75s ease-in-out;
+}
+
+/* Active state and hover styling */
+.active,
+.accordion:hover .question-wrapper {
+    background-color: #D7CFBA ;
+}
+.active p {
+    color: #92629E;
+}
+
+/* Container styling */
+.container {
+    width: 100%;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-right: auto;
+    margin-left: auto;
+}
+@media only screen and (min-width: 768px) {
+    .container {
+        max-width: 768px;
+    }
+}
+@media only screen and (min-width: 992px) {
+    .container {
+        max-width: 1144px;
+    }
+}

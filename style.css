@@ -1,0 +1,173 @@
+.one{
+	color:#B28759;
+	text-align:center;
+}
+.two{
+	color:#9D77AB;
+	text-align:center;
+}
+th{
+	color:#B28759;
+	font-size:200%;
+	font-family: Apple Chancery;
+}
+img{
+	width:500px;
+	height:700px;
+}
+table{
+	margin-left: auto;
+  	margin-right: auto;
+}
+.three{
+	color:#75539E;
+	font-family:fantasy;
+	padding:50px;
+	
+}
+#text
+{
+color:#288469;
+text-align:center;
+}
+#text2
+{
+color:#6C92AF;
+text-align:center;
+}
+
+/*--meniu--*/
+.site-navbar {
+	overflow: hidden;
+	background-color: rgb(149, 125, 86);
+	box-shadow: 0 10px 15px 0 rgba(0,0,0,.2);
+	position: fixed; 
+	bottom: 0;
+	right: 0;
+	z-index: 9999; 
+	width: 100%; 
+}
+.site-navbar a {
+	float: left;
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-family: "Raleway", sans-serif;
+	font-size: 90%;
+	transition: 0.5s;
+}
+.site-navbar a:hover {
+	background-color: #AA927D;
+	color: black;
+}
+.site-navbar .navbar {
+	float: left;
+}
+.site-navbar .navbar-home {
+	float: right;
+}
+.dropdown {
+	float: left;
+	overflow: hidden;
+}
+.dropdown .navbar-dropdown-item {
+	border: none;
+	outline: none;
+	color: white;
+	padding: 12px 16px;
+	background-color: inherit;
+	font-family: "Raleway", sans-serif;
+	text-align: center;
+	font-size: 90%;
+	display: block;
+	transition: 0.5s;
+}
+.dropdown .dropdown-content {
+	display:none;
+	position: fixed;
+	background-color: #AA927D;
+	min-width: 160px;
+	box-shadow: 0 10px 15px 0 #3E2D17;
+	z-index: 1;
+	bottom: 43px;
+}
+.dropdown-content a {
+	float: none;
+	color: black;
+	padding: 20px 16px;
+	text-decoration: none;
+	display: block;
+	text-align: left;
+	font-family: "Raleway", sans-serif;
+	font-size: 90%;
+	transition: 0.5s;
+}
+.dropdown-content a:hover {
+	background-color: #EACDA9;
+}
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+.dropdown:hover .navbar-dropdown-item {
+	background-color: #AA927D;
+	color: black;
+}
+/*--aboutus--*/
+.container {
+ display: grid;
+ align-items: center; 
+ grid-template-columns: 1fr 1fr 1fr;
+ column-gap: 5px;
+}
+
+.imagine {
+  width: 500px;
+  height: 250px;
+}
+
+.text {
+  font-size: 70px;
+}
+/*--footer--*/
+footer{
+	text-align: right;
+	padding: 40px;
+	background-color: #9E644E;
+	color: white;
+	font-family: 'Brush Script MT';
+	font-size: 25px;
+}
+/*--quote--*/
+blockquote{
+	font-size:20px; 
+	font-family:Apple Chancery;
+	background:#EFDFBB;
+	background:-webkit-linear-gradient(top, #EFDFBB, #f5f0e4);
+}
+/*---contact page---*/
+#ul1 {
+	list-style-type: square;
+}
+address {
+	vertical-align: middle;
+	display: inline; 
+}
+#mess_type {
+	font-size: 15px;
+	font-family: Apple Chancery;
+	background-color: #C0A48C;
+}
+#message {
+	font-size: 15px;
+	font-family: Apple Chancery;
+	background-color:#C0A48C;
+}
+#submit {
+	font-size: 15px;
+	font-family:Apple Chancery;
+	background-color:#C0A48C;
+}
+
+
