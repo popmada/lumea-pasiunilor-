@@ -1,2 +1,2 @@
-# lumea-pasiunilor-
+# lumea-pasiunilor
 atestat
